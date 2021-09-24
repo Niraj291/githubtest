@@ -1,5 +1,6 @@
-module.exports = {
-  sum(a, b) {
-    
+function sum(a, b){
+  if (isNaN(a) || isNaN(b)){
+    throw 'not a number';
   }
-};
+}
+
