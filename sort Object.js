@@ -4,6 +4,6 @@ let sortObject = [
     {a: 3, b: 7, c:9}
 ];
 sortObject.sort(function (x, y) {
-    return x.a- y.a;
+    return x.a - y.a;
 });
 console.table(sortObject);
