@@ -3,4 +3,3 @@ function sum(a, b){
     throw 'not a number';
   }
 }
-
